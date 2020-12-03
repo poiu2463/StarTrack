@@ -7,7 +7,7 @@
     android:layout_height="match_parent">
 
     <ImageView
-        android:id="@+id/imageView"
+        android:id="@+id/cargoIconView"
         android:layout_width="75dp"
         android:layout_height="75dp"
         app:layout_constraintStart_toStartOf="parent"
@@ -19,8 +19,8 @@
         android:layout_width="157dp"
         android:layout_height="29dp"
         android:layout_marginStart="8dp"
-        android:text="TextView"
-        app:layout_constraintStart_toEndOf="@+id/imageView"
+        android:text="@string/defaultTextView"
+        app:layout_constraintStart_toEndOf="@+id/cargoIconView"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
@@ -29,17 +29,17 @@
         android:layout_height="33dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
-        android:text="TextView"
-        app:layout_constraintBottom_toBottomOf="@+id/imageView"
-        app:layout_constraintStart_toEndOf="@+id/imageView"
+        android:text="@string/defaultTextView"
+        app:layout_constraintBottom_toBottomOf="@+id/cargoIconView"
+        app:layout_constraintStart_toEndOf="@+id/cargoIconView"
         app:layout_constraintTop_toBottomOf="@+id/cargoRunTypeTextView" />
 
     <TextView
         android:id="@+id/profitTextView"
         android:layout_width="153dp"
         android:layout_height="34dp"
-        android:text="TextView"
-        app:layout_constraintBottom_toBottomOf="@+id/imageView"
+        android:text="@string/defaultTextView"
+        app:layout_constraintBottom_toBottomOf="@+id/cargoIconView"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>
